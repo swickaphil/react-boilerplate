@@ -1,0 +1,17 @@
+{
+  "name": "swickaphil",
+  "version": "1.0.0",
+  "description": "Phil Swickard landing page",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --watch",
+    "build:prod": "webpack -p && cp src/index.html dist/index.html"
+  },
+  "author": "Phil Swickard <paswicka@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
