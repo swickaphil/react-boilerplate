@@ -1,6 +1,8 @@
 import React from "react";
 import { render } from "react-dom"
 
+import { Sample } from "./components/Sample";
+
 class App extends React.Component {
   render(){
     return (
@@ -9,6 +11,7 @@ class App extends React.Component {
           <div className="cos-xs-10 cos-xs-offset-1">
             <h1>React Bolierplate</h1>
             <p>with Bootstrap</p>
+            <Sample />
           </div>
         </div>
       </div>
