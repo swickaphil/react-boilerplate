@@ -8,6 +8,7 @@ class App extends React.Component {
         <div className="row">
           <div className="cos-xs-10 cos-xs-offset-1">
             <h1>React Bolierplate</h1>
+            <p>with Bootstrap</p>
           </div>
         </div>
       </div>
